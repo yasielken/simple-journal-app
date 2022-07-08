@@ -1,6 +1,9 @@
+import { JournalLayout } from "../layout/JournalLayout"
 
 export const JournalPage = () => {
   return (
-    <div>JournalPage</div>
+    <JournalLayout>
+      <h1>JournalPage</h1>
+    </JournalLayout>
   )
 }
